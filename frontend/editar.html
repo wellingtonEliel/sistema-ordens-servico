@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Ordem</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Gerenciamento de Ordens</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cadastro.html">Nova Ordem</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Editar Ordem</h2>
+    <form id="editarForm">
+      <input type="hidden" id="ordemId">
+      
+      <label for="cliente">Cliente:</label>
+      <input type="text" id="cliente" name="cliente" required>
+      
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" rows="4" required></textarea>
+      
+      <label for="status">Status:</label>
+      <select id="status" name="status">
+        <option value="Aberta">Aberta</option>
+        <option value="Em Andamento">Em Andamento</option>
+        <option value="Concluída">Concluída</option>
+      </select>
+      
+      <button type="submit">Atualizar</button>
+    </form>
+  </main>
+  <script src="./js/editar.js"></script>
+</body>
+</html>

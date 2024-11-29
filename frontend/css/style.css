@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  header nav a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background: #f4f4f4;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input, textarea, select, button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  button.deleteBtn {
+    background-color: #f44336;
+  }
+  
+  button.deleteBtn:hover {
+    background-color: #da190b;
+  }
+  
+  button.deleteBtn:active {
+    background-color: #b71c1c;
+  }
+  
+  button.editBtn {
+    background-color: #007bff;
+  }
+  
+  button.editBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  button.editBtn:active {
+    background-color: #004085;
+  }

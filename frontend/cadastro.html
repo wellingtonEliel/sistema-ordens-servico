@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Ordem</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Gerenciamento de Ordens</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cadastro.html">Nova Ordem</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Cadastrar Nova Ordem</h2>
+    <form id="cadastroForm">
+      <label for="cliente_id">Cliente:</label>
+      <select id="cliente_id" name="cliente_id" required>
+          <!-- Aqui será preenchido com os clientes cadastrados -->
+      </select>
+      
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" rows="4" required></textarea>
+      
+      <label for="status">Status:</label>
+      <select id="status" name="status">
+        <option value="Aberta">Aberta</option>
+        <option value="Em Andamento">Em Andamento</option>
+        <option value="Concluída">Concluída</option>
+      </select>
+      
+      <button type="submit">Cadastrar</button>
+    </form>
+  </main>
+  <script src="./js/cadastro.js"></script>
+</body>
+</html>
